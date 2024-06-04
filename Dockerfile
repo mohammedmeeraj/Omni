@@ -5,4 +5,5 @@ COPY index.html /var/www/html/
 COPY CSS /var/www/html/
 COPY img /var/www/html/
 COPY js /var/www/html/
+COPY manifest.webmanifest /var/www/html/
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
